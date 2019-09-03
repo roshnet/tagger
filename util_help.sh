@@ -20,4 +20,5 @@ ls:     Expects one arg - TAGNAME.
         Shows all files tagged with TAGNAME.
         If no arg is fed, shows all tagged files with their tags.
 '
+    exit
 }
