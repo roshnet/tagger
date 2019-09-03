@@ -5,7 +5,7 @@ Tagger v1 / @roshnet
 ======================
 Below are the subcommands and features that tagger implements.
 
-USAGE: tagger [init | tag | tags | ls | rm] <args>
+USAGE: tagger [init | tag | tags | ls | help] <args>
 
 init:   Initialises tagger.
         Overwrites any old config files if used with "--hard"
@@ -19,6 +19,8 @@ tags:   Shows a list of all defined tags.
 ls:     Expects one arg - TAGNAME.
         Shows all files tagged with TAGNAME.
         If no arg is fed, shows all tagged files with their tags.
+
+help:   Shows this message and exits.
 '
     exit
 }
