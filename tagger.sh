@@ -14,7 +14,6 @@ execute ()
 
     if [ "$1"="init" ]
     then
-        echo "init exists"
         if [ "$2"="--hard" ]
         then
             force_init
@@ -23,7 +22,6 @@ execute ()
         fi
     elif [ "$1"="tag" ]
     then
-        echo "tag was run"
         if [ $# -lt 3 ]
         then
             end_proc
